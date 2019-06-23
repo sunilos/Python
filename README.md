@@ -1,4 +1,4 @@
-# SOSPython
+# SunilOS Python
 Python tutorial examples
 
 Python basics,Conditional Statements,Looping,Control Statements,String Manipulation,Lists,Tuple,Dictionaries,Functions,Modules,Input-Output,Exception Handling,OOPs concept,Regular expressions,CGI,Database,Networking, Multi-threading, GUI Programming,Sending email
