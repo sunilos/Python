@@ -1,13 +1,10 @@
-# Example of While Loop
+# Example of  List
 #
 # @author SunilOS  
 # @version 1.0
 # @Copyright (c) SunilOS  
 # @Url www.SunilOs.com
-#
-i = 0
-while i<5:
-	print ( ' Hello ',i)
-	i +=  1
 
-		        
+#List Example
+a = [5,10,15,20,25,30,35,40]
+print("a[2] = ", a[2])

@@ -1,3 +1,10 @@
+# Example of Thread
+#
+# @author SunilOS  
+# @version 1.0
+# @Copyright (c) SunilOS  
+# @Url www.SunilOs.com
+
 import _thread
 
 # Define a function for the thread

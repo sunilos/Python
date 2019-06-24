@@ -1,3 +1,9 @@
+# Example of Data Types
+# 
+# @author SunilOS  
+# @version 1.0
+# @Copyright (c) SunilOS  
+# @Url www.SunilOs.com
 #Integers Numbers 
 a = 100
 ids=101
