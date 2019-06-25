@@ -4,6 +4,7 @@
 # @version 1.0
 # @Copyright (c) SunilOS  
 # @Url www.SunilOs.com
+#
 
 import smtplib 
 from email.mime.multipart import MIMEMultipart 
@@ -57,7 +58,7 @@ s = smtplib.SMTP('smtp.gmail.com', 587)
 s.starttls() 
 
 # Authentication 
-s.login(fromaddr, "Password_of_the_sender") 
+s.login(fromaddr, "sender_password") 
 
 # Converts the Multipart msg into a string 
 text = msg.as_string() 

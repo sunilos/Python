@@ -5,6 +5,8 @@
 # @version 1.0
 # @Copyright (c) SunilOS  
 # @Url www.SunilOs.com
+#
+
 #Array Updation
 from array import *
 array1 = array('i', [10,20,30,40,50])

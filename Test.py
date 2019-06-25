@@ -1,3 +1,11 @@
+# Example of TRY CATCH
+#
+# @author SunilOS  
+# @version 1.0
+# @Copyright (c) SunilOS  
+# @Url www.SunilOs.com
+#
+
 a =4
 b = 2
 try:

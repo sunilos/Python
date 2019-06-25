@@ -4,6 +4,7 @@
 # @version 1.0
 # @Copyright (c) SunilOS  
 # @Url www.SunilOs.com
+#
 
 my_tuple = ()
 print(my_tuple)  # Output: ()

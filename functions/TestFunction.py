@@ -4,7 +4,9 @@
 # @version 1.0
 # @Copyright (c) SunilOS  
 # @Url www.SunilOs.com
-#Function defination
+#
+
+#Function definition
 def sum( a,b ):
    "It sumd two numbers"
    print('a',a,'b',b)

@@ -4,6 +4,7 @@
 # @version 1.0
 # @Copyright (c) SunilOS  
 # @Url www.SunilOs.com
+#
 
 #Prints properies of a file
 def fileInfo():

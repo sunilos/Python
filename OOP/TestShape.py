@@ -1,3 +1,11 @@
+# Example of   Class 
+#
+# @author SunilOS  
+# @version 1.0
+# @Copyright (c) SunilOS  
+# @Url www.SunilOs.com
+#
+
 #Test Shape class
 from Shape import Shape, Circle, Triangle, Rectangle
 
