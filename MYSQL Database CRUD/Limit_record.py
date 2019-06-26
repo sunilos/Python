@@ -9,15 +9,15 @@
 #Example  to show Limited Record by limit Clause 
 from mysql.connector import (connection)
 
-cnx = connection.MySQLConnection(user='root',
+conn = connection.MySQLConnection(user='root',
     password='root', 
     host='localhost', 
     charset='utf8', 
     database='testdb')
 
-mycursor= cnx.cursor()
-mycursor.execute("SELECT * FROM student LIMIT 4")
-myresult = mycursor.fetchall()
+my_cursor= conn.cursor()
+my_cursor.execute("SELECT * FROM student LIMIT 4")
+my_result = my_cursor.fetchall()
 
-for x in myresult:
+for x in my_result:
   print(x)

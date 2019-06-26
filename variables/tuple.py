@@ -6,12 +6,21 @@
 # @Url www.SunilOs.com
 #
 
+#creating tuple 
 my_tuple = ()
-print(my_tuple)  # Output: ()
-# Tuple having integers
-my_tuple = (1, 2, 3)
-print(my_tuple)  # Output: (1, 2, 3) 
+print(my_tuple)
 
-# tuple with mixed data types
-my_tuple = (1, "Hello", 3.4)
-print(my_tuple)  # Output: (1, "Hello", 3.4) 
+#tuple of int, float, string
+tuple_list1 = (1, 2.8, "Hello Python")
+print(tuple_list1)
+
+# tuple of string and list
+tuple_list2 = ("Book", [1, 2, 3])
+print(tuple_list2)
+
+
+#Accessing elements from nested tuples
+tuple_list4 = (1, "Steve", (11, 22, 33))  #1 represented the second element of that tuple.
+
+print(tuple_list4[1][2])
+print(tuple_list4[2][2])

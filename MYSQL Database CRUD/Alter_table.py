@@ -8,12 +8,10 @@
 
 from mysql.connector import (connection)
 
-cnx = connection.MySQLConnection(user='root',
+conn = connection.MySQLConnection(user='root',
     password='root', 
     host='localhost', 
     charset='utf8', 
     database='testdb')
 
-mycursor = cnx.cursor()
-
-mycursor.execute("ALTER TABLE student ADD COLUMN StudentEmail VARCHAR(255)")
+conn.cursor().execute("ALTER TABLE student ADD COLUMN StudentEmail1 VARCHAR(255)")

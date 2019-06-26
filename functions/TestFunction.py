@@ -58,11 +58,11 @@ my_function("Linus")
 
 #passing a List as parameter
 
-print("Ouput show passing value as a parameter : ")
+print("Output show passing value as a parameter : ")
 def my_function(food):
  for x in food:
    print(x)
-fruits = ["apple", "banana", "cherry"]
+fruits = ["Ram", "Shyam", "Jerry"]
 my_function(fruits)
 
 #Return value as parameter

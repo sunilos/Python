@@ -10,17 +10,16 @@
 
 from mysql.connector import (connection)
 
-cnx = connection.MySQLConnection(user='root',
+conn = connection.MySQLConnection(user='root',
     password='root', 
     host='localhost', 
     charset='utf8', 
     database='testdb')
 
 sql_fetch = "SELECT * FROM student WHERE RollNo Like '%ca%'"
-mycursor = cnx.cursor()
-mycursor.execute(sql_fetch)
+my_cursor = conn.cursor()
+my_cursor.execute(sql_fetch)
+my_result = my_cursor.fetchall()
 
-myresult = mycursor.fetchall()
-
-for x in myresult:
+for x in my_result:
   print(x)

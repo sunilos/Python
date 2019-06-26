@@ -10,15 +10,16 @@
 
 from mysql.connector import (connection)
 
-cnx = connection.MySQLConnection(user='root',
+conn = connection.MySQLConnection(user='root',
     password='root', 
     host='localhost', 
     charset='utf8', 
     database='testdb')
+    
 #To Insert Single record in table
-sqlinsert = "Insert into student(Studentname,RollNo,StudentEmail)values('John','0206ca121','john@gmail.com')"
-mycursor = cnx.cursor()
-mycursor.execute(sqlinsert)
-cnx.commit()
+sql_insert = "Insert into student(Studentname,RollNo,StudentEmail)values('John','0206ca121','john@gmail.com')"
+my_cursor = conn.cursor()
+my_cursor.execute(sql_insert)
+conn.commit()
 print("Data Successfully Inserted")
-cnx.close()
+conn.close()

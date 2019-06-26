@@ -10,14 +10,13 @@
 
 from mysql.connector import (connection)
 
-cnx = connection.MySQLConnection(user='root',
+conn = connection.MySQLConnection(user='root',
     password='root', 
     host='localhost', 
     charset='utf8', 
     database='testdb')
 
-mycursor = cnx.cursor()  
-mycursor.execute("SHOW TABLES")
-
-for x in mycursor:
+my_cursor = conn.cursor()  
+my_cursor.execute("SHOW TABLES")
+for x in my_cursor:
   print(x)

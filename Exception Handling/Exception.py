@@ -23,20 +23,19 @@ def AbyB(a , b):
   try:
     c = ((a+b) / (a-b))
   except ZeroDivisionError:
-    print("a/b result in 0")
+    print("Exception refused due to zero")
   else:
     print(c)
 
-# Driver program to test above function
+# Program to test above function
 AbyB(2.0, 3.0)
 AbyB(3.0, 3.0)
 
-#Raising Exception
-
+#Raise Custom Exception
 # Program to depict Raising Exception
 
 try:
-  raise NameError("Hi there") # Raise Error
+  raise NameError("Hi Ram") # Raise Error
 except NameError:
   print("An exception")
   raise # To determine whether the exception was raised or not

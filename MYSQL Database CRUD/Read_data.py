@@ -10,16 +10,16 @@
 
 from mysql.connector import (connection)
 
-cnx = connection.MySQLConnection(user='root',
+conn = connection.MySQLConnection(user='root',
     password='root', 
     host='localhost', 
     charset='utf8', 
     database='testdb')
 
-mycursor = cnx.cursor()
-mycursor.execute("select * from student")
-
-result = mycursor.fetchall() #fetchall() method fetch all rows from executed query 
+my_cursor = conn.cursor()
+my_cursor.execute("select * from student")
+my_result = my_cursor.fetchall() #fetchall() method fetch all rows from executed query 
 print("Data Listed Below:")
-for x in result:
+
+for x in my_result:
     print(x)

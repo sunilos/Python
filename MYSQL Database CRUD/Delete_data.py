@@ -8,16 +8,12 @@
 #  
 from mysql.connector import (connection)
 
-cnx = connection.MySQLConnection(user='root',
+conn = connection.MySQLConnection(user='root',
     password='root', 
     host='localhost', 
     charset='utf8', 
     database='testdb')
-mycursor = cnx.cursor()
 
-sql_delete = "DELETE FROM student WHERE sid = '3'"
-
-mycursor.execute(sql_delete)
-
-cnx.commit()
+conn.cursor().execute("DELETE FROM student WHERE sid = '1'")
+conn.commit()
 print("One record Deleted")

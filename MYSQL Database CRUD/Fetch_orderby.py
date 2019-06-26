@@ -9,19 +9,16 @@
 
 from mysql.connector import (connection)
 
-cnx = connection.MySQLConnection(user='root',
+conn = connection.MySQLConnection(user='root',
     password='root', 
     host='localhost', 
     charset='utf8', 
     database='testdb')
 
-mycursor= cnx.cursor()
-
+my_cursor= conn.cursor()
 sql_fetch = "SELECT * FROM student ORDER BY RollNo DESC"
+my_cursor.execute(sql_fetch)
+my_result = my_cursor.fetchall()
 
-mycursor.execute(sql_fetch)
-
-myresult = mycursor.fetchall()
-
-for x in myresult:
+for x in my_result:
   print(x)
