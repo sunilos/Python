@@ -1,4 +1,4 @@
-# Example of simple Try Except with Zero Division Error
+# Example of simple Try Except with ZeroDivisionError
 #
 # @author SunilOS  
 # @version 1.0
