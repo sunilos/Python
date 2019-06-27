@@ -5,30 +5,13 @@
 # @Copyright (c) SunilOS  
 # @Url www.SunilOs.com
 # 
-# try:  
-#    number   = int(input("Enter Number "))
-#    number%2 == 0
-#    print("Number is Even")
-  
-# except Exception:  
-#     print("Number is Odd")  
 
-try:
- 
-    number=int(input('Your Number '))
- 
-except:
- 
-    print ('Enter a Number.')
- 
-else:
- 
-    eve_or_odd = number%2 == 0
- 
-    if eve_or_odd:
- 
-        print('Number is Even .')
- 
-    else:
- 
-        print('Number is Odd')
+try:  
+    num1 = int(input("Enter First Number: "))  
+    num2 = int(input("Enter Second Number: "))  
+    num3 = num1/num2;  
+    print("num1/num2 = ",num3)  
+except Exception:  
+    print("can't divide by zero")  
+else:  
+    print("Hi I am else block")   

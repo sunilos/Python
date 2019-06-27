@@ -7,43 +7,28 @@
 #
 
 
-import threading
-import time
+from time import sleep
+from threading import *
 
-class myThread (threading.Thread):
-   def __init__(self, threadID, name, counter):
-      threading.Thread.__init__(self)
-      self.threadID = threadID
-      self.name = name
-      self.counter = counter
+class Hello(Thread):
    def run(self):
-      print("Starting " + self.name)
-      # Get lock to synchronize threads
-      threadLock.acquire()
-      print_time(self.name, self.counter, 3)
-      # Free lock to release next thread
-      threadLock.release()
+    for i in range(20):
+        print("Ram")
+        
 
-def print_time(threadName, delay, counter):
-   while counter:
-      time.sleep(delay)
-      print("%s: %s" % (threadName, time.ctime(time.time())))
-      counter -= 1
+class Hi(Thread):
+  def run(self):
+   for i in range(20):
+         print("Shyam")
+        
 
-threadLock = threading.Lock()
-threads = []
+thread1 = Hello()
+thread2 = Hi()
 
-# Create new threads
-
-thread1 = myThread(1, "Thread-1", 1)
-thread2 = myThread(2, "Thread-2", 4)
-
-# Start new Threads
 thread1.start()
+sleep(0.2)
 thread2.start()
 
-
-# Wait for all threads to complete
-for t in threads:
-    t.join()
-print("Exiting Main Thread")
+thread1.join()
+thread2.join()
+print("Bye")
