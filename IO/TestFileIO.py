@@ -41,7 +41,7 @@ def writeFile():
     return
 
 
-#fileInfo()
+fileInfo()
 readFile()
-#readLine()
-#writeFile()
+readLine()
+writeFile()

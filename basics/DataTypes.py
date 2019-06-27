@@ -6,6 +6,7 @@
 # @Url www.SunilOs.com
 #Integers Numbers 
 #
+
 a = 100
 ids=101
 price =99.99

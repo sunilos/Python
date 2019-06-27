@@ -6,7 +6,7 @@
 # @Url www.SunilOs.com
 #
 
-d = {1:'Jimmy', 2:'Alex', 3:'john', 4:'mike'};   
+d = {1:'Ram', 2:'Shyam', 3:'Balram', 4:'Raju'};   
 print("1st name is "+d[1]);  
 print("2nd name is "+ d[4]);  
 print (d);  

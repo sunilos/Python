@@ -1,4 +1,4 @@
-# Example of Simple Array to print Index Value
+# Example of Simple Array to print Index Values
 # 
 # @author SunilOS  
 # @version 1.0
@@ -7,9 +7,9 @@
 #
 
 from array import *
-array1 = array('i', [10,20,30,40,50])
-print (array1[0])
-print (array1[2])
+array_list = array('i', [10,20,30,40,50])
+print (array_list[0])
+print (array_list[2])
 
 
 

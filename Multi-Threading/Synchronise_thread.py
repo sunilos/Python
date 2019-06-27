@@ -1,4 +1,4 @@
-# Example of Creating Thread in Group
+# Example of Creating Synchronise thread  using join method
 #
 # @author SunilOS  
 # @version 1.0

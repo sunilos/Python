@@ -12,13 +12,11 @@ print(string)
 string = 'hello'
 print(string)
 
-var = 123 # This will create a number integer assignment
-print(var)
 
 #string Example
 
-firstname = 'john'
-lastname = "smith"
+firstname = 'Ram'
+lastname = "Shyam"
 print(firstname)
 print(lastname)
 

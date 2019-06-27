@@ -1,5 +1,5 @@
 
-# Example of Abstraction
+# Example of Encapsulation
 #
 # @author SunilOS  
 # @version 1.0
