@@ -7,7 +7,7 @@
 # 
 
 # Define a class as 'student'
-class student:
+class Student:
     # Method
     def getStudent(self):
         self.name = input("Name: ")
@@ -15,7 +15,7 @@ class student:
         self.gender = input("Gender: ")
 
 # Define a class as 'test' and inherit base class 'student'
-class test(student):
+class Test(student):
     # Method
     def getMarks(self):
         self.stuClass = input("Class: ")
@@ -26,7 +26,7 @@ class test(student):
         self.physics = int(input("Physics: "))
 
 # Define a class as 'marks' and inherit derived class 'test'
-class marks(test):
+class Marks(test):
     # Method
     def display(self):
         print("\n\nName: ",self.name)

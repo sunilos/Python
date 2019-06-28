@@ -1,4 +1,4 @@
-# Example of  Tuple
+# Example of Creating Tuple
 #
 # @author SunilOS  
 # @version 1.0
@@ -11,7 +11,7 @@ my_tuple = ()
 print(my_tuple)
 
 #tuple of int, float, string
-tuple_list1 = (1, 2.8, "Hello Python")
+tuple_list1 = (1, 2.8, "Hello Ram")
 print(tuple_list1)
 
 # tuple of string and list
@@ -20,7 +20,7 @@ print(tuple_list2)
 
 
 #Accessing elements from nested tuples
-tuple_list4 = (1, "Steve", (11, 22, 33))  #1 represented the second element of that tuple.
+tuple_list4 = (1, "Balram", (11, 22, 33))  #1 represented the second element of that tuple.
 
 print(tuple_list4[1][2])
 print(tuple_list4[2][2])

@@ -1,4 +1,4 @@
-# Example of   Polymorphism 
+# Example of Polymorphism  with one Name Multiple Forms
 #
 # @author SunilOS  
 # @version 1.0
@@ -6,17 +6,6 @@
 # @Url www.SunilOs.com
 #
 
-# A simple Python function to demonstrate 
-# Polymorphism 
-print("A simple Python function to demonstrate ")
-def add(x, y, z = 0): 
-	return x + y+z 
-
-
-print(add(2, 3)) 
-print(add(2, 3, 4)) 
-
-print("Polymorphism with Class methods:\n")
 
 class India(): 
 	def capital(self): 
@@ -44,3 +33,4 @@ for country in (obj_ind, obj_usa):
 	country.capital() 
 	country.language() 
 	
+
