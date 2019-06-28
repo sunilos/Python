@@ -1,4 +1,3 @@
-
 # Example of   Polymorphism 
 #
 # @author SunilOS  
