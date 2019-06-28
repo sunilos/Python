@@ -14,13 +14,13 @@ from threading import *
 class Hello(Thread):
    def run(self):
     for i in range(20):
-        print(i, "Ram")
+        print("Ram")
         
 #Create a class by inheriting Thread class
 class Hi(Thread):
   def run(self):
    for i in range(20):
-         print(i, "Shyam")
+         print("Shyam")
         
 #create thread instances 
 t1 = Hello()
