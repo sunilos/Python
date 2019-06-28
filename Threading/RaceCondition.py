@@ -10,25 +10,27 @@
 from time import sleep
 from threading import *
 
+#Create a class by inheriting Thread class
 class Hello(Thread):
    def run(self):
     for i in range(20):
-        print("Ram")
+        print(i, "Ram")
         
-
+#Create a class by inheriting Thread class
 class Hi(Thread):
   def run(self):
    for i in range(20):
-         print("Shyam")
+         print(i, "Shyam")
         
+#create thread instances 
+t1 = Hello()
+t2 = Hi()
 
-thread1 = Hello()
-thread2 = Hi()
-
-thread1.start()
+t1.start()
 sleep(0.2)
-thread2.start()
+t2.start()
 
-thread1.join()
-thread2.join()
+t1.join()
+t2.join()
+
 print("Bye")

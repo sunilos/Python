@@ -1,5 +1,5 @@
-# Example of Deamon Thread
-#
+# Deamon Thread are supporting threads.  It can be created using  daemon='true' attribute.
+# Garbage collector is the best example of deamon thread.
 # @author SunilOS  
 # @version 1.0
 # @Copyright (c) SunilOS  
@@ -19,11 +19,9 @@ def second_thread():
     time.sleep(0.2)
     print("how are you Shyam?")    
 
-thread1 = threading.Thread(target=first_thread,daemon='true')
-thread2 = threading.Thread(target=second_thread) 
+t1 = threading.Thread(target=first_thread, daemon='true')
+t2 = threading.Thread(target=second_thread) 
 
-thread1.start()
-thread2.start() 
+t1.start()
+t2.start() 
 
-thread1.join()
-thread2.join()
