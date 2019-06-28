@@ -10,7 +10,7 @@
 import threading
 
 def first_thread():
-    print("Hello I am thread")
+    print("Hello I am Ram")
     return
 
 for i in range(20):
