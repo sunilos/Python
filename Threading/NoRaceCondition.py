@@ -8,13 +8,9 @@
 
 from time import sleep
 from threading import *
-import threading
 
 class Account:
   balance =0
-  def __init__(self):
-    self.lock = threading.Lock()
-
   def get_balance(self):
     sleep(2)
     return self.balance
@@ -24,10 +20,9 @@ class Account:
     self.balance = amount
   
   def diposite(self, amount):
-    self.lock.acquire()
+    
     bal = self.get_balance()
     self.set_balance(bal + amount)
-    self.lock.release()
 
 #Create a class by inheriting Thread class
 class Racing(Thread):
