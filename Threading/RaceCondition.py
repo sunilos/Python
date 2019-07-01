@@ -1,47 +1,37 @@
-# Example of Creating Synchronise thread  
-# In this Program you will see first time it print Ram and Shyam 
-# And then  after it will print Ram and Shyam  continously and at last it print Bye by main thread
+# Example of Multi-Threads with  Race Condition using acquire() and release()  Method
+# In this Example you will see first it will Hello Ram and Hello Shyam 
+# Then You see it will print How are you Ram and Shyam concurrently
 # @author SunilOS  
 # @version 1.0
 # @Copyright (c) SunilOS  
 # @Url www.SunilOs.com
 #
-
-
-import threading
-import time
  
-class MyThread(threading.Thread):
-    def __init__(self,threadId, name,counter):
-        threading.Thread.__init__(self)
-        self.threadId = threadId
-        self.name = name
-        self.counter = counter
-
+import threading 
+import time
+  
+def first_thread(name):
     
+    lock = threading.Lock()
+    print("Hello " , name)
+   
+    for i in range(30):
+      lock.acquire()
+      time.sleep(2)
+      print("How are you " , name)
+     
+      lock.release()
+  
+def second_thread():
+    
+        t1 = threading.Thread(target=first_thread,args=["Ram"])
+        t2 = threading.Thread(target=first_thread,args=["Shyam"])
 
-    def run(self):
-       print("Hello  " + self.name) 
-       #Get Lock to synchronise Thread
-       threadLock.acquire()
-       get(self.name,self.counter,3)
-        #Free The Lock to release Next Thread
-       threadLock.release()
+        t1.start()
+        t2.start()
 
+        t1.join()
+        t2.join()
+        
+second_thread()
 
-def get(threadName,delay,counter):
-    while counter:
-     time.sleep(delay)
-     print(threadName)
-     counter -= 1
-threadLock = threading.Lock()
-threads = []
-
-t1 =  MyThread(1,"Ram",1)
-t2 = MyThread(2,"Shyam",2)
-
-t1.start()
-t2.start()
-t1.join()
-t2.join()
-print("Bye")

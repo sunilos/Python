@@ -12,5 +12,6 @@ class fruits:
         self.__bags = 5
     def display(self):
         print(self.__bags)
+
 obj=fruits()
 obj.display()
