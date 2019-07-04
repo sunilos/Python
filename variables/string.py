@@ -6,19 +6,10 @@
 # @Url www.SunilOs.com
 #
 
-string = "hello"
-print(string)
-#double quotes are the same as single quotes:
-string = 'hello'
-print(string)
-
-
-#string Example
-
-firstname = 'Ram'
-lastname = "Shyam"
-print(firstname)
-print(lastname)
-
-
+str1 = 'hello Ram' #string str1  
+str2 = ' How are you' #string str2  
+print (str1[0:2]) #printing first two character using slice operator  
+print (str1[8]) #printing 4th character of the string  
+print (str1 * 2) #printing the string twice  
+print (str1 + str2) #printing the concatenation of str1 and str2  
 

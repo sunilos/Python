@@ -1,5 +1,5 @@
-# Example of simple Try Except  with NameError
-#
+# Example of simple Try Except with NameError
+# 
 # @author SunilOS  
 # @version 1.0
 # @Copyright (c) SunilOS  
@@ -8,8 +8,8 @@
 
 #The try block will generate a NameError, because Ram is not defined:
 try:
-    print(number)
+    print(name)
 except NameError:
-  print("Variable number is not defined")
+  print("Variable name is not defined")
 except:
   print("Something else went wrong")

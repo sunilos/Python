@@ -16,7 +16,7 @@ def first_thread():
 
 def second_thread():
     print("Hello Shyam")
-    time.sleep(0.2)
+    time.sleep(2)
     print("how are you Shyam?")    
 
 t1 = threading.Thread(target=first_thread, daemon='true')
