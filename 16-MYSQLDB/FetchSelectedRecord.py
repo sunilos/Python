@@ -1,4 +1,4 @@
-# Example to fetch  selected  Record  from table  using Like keyword
+# Example to fetch  selected  Record Column wise from table  using Like keyword
 #
 # @author SunilOS  
 # @version 1.0
