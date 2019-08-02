@@ -16,7 +16,7 @@ conn = connection.MySQLConnection(user='root',
     charset='utf8', 
     database='testdb')
 
-sql_fetch = "SELECT * FROM student WHERE RollNo Like '%ca%'"
+sql_fetch = "SELECT  RollNo FROM student WHERE RollNo Like '%cs%'"
 my_cursor = conn.cursor()
 my_cursor.execute(sql_fetch)
 my_result = my_cursor.fetchall()
