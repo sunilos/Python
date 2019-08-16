@@ -7,7 +7,10 @@
 #
 
 #Test Shape class
-from Shape import Shape, Circle, Triangle, Rectangle
+from Shape import *
+from Circle import *
+from Triangle import *
+from Rectangle import *
 
 def testShape():
     'Test Shape class'
