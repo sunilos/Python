@@ -1,5 +1,5 @@
-#Example of deserialization on an object from a file.
-#Pickle liabrary is used for serialization and deserialization 
+#Example of deserialization of an object from a file.
+#Pickle library is used for serialization and deserialization 
 
 import pickle
 
