@@ -5,7 +5,7 @@ gmail_password = 'P@ssword!'
 
 sent_from = gmail_user
 to = ['me@gmail.com', 'bill@gmail.com']
-subject = 'OMG Super Important Message'
+subject = 'This is my first Python Message'
 body = 'Hi, What is going on'
 
 try:
