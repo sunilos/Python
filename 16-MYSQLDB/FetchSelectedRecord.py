@@ -1,4 +1,4 @@
-# Example to fetch  selected  Record  from table  using Like keyword
+# Example to fetch  selected  Record Column wise from table  using Like keyword
 #
 # @author SunilOS  
 # @version 1.0
@@ -16,10 +16,9 @@ conn = connection.MySQLConnection(user='root',
     charset='utf8', 
     database='testdb')
 
-sql_fetch = "SELECT * FROM student WHERE RollNo Like '%ca%'"
+sql_fetch = "SELECT RollNo FROM student WHERE RollNo Like '%cs%'"
 my_cursor = conn.cursor()
-my_cursor.execute(sql_fetch)
-my_result = my_cursor.fetchall()
+my_result = my_cursor.fetchall() #  This will fetch the records  where the rollno  contains the word "cs"
 
 for x in my_result:
   print(x)
