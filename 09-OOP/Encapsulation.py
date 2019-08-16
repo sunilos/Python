@@ -6,12 +6,16 @@
 # @Url www.SunilOs.com
 #
  
-class fruits:
+class Person:
+    #constructor 
     def __init__(self):
-        self.price = 100
-        self.__bags = 5
-    def display(self):
-        print(self.__bags)
+        #instance variable       
+        self.name = "No name"
 
-obj=fruits()
-obj.display()
+    #Method  
+    def display(self, name):
+        print( "Hello", name)
+
+obj = Person()
+obj.display("Ram")
+obj.display("Shyam")
