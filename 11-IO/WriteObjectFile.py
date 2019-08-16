@@ -1,3 +1,6 @@
+#Example of serialization of an object into a file.
+#Pickle library is used for serialization and deserialization 
+
 import pickle
 class Employee:
     def __init__(self,eno,ename,esal,eaddr):
