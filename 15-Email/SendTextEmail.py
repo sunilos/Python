@@ -1,4 +1,6 @@
 import smtplib
+import traceback
+
 
 gmail_user = 'you@gmail.com'
 gmail_password = 'P@ssword!'
@@ -12,9 +14,9 @@ try:
     server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
     server.ehlo()
     server.login(gmail_user, gmail_password)
-    server.sendmail(sent_from, to, email_text)
+    server.sendmail(sent_from, to, body)
     server.close()
-    print 'Email sent!'
+    print('Email sent!')
 
 except:
-    print 'Something went wrong...'
+    traceback.print_exc()
