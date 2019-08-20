@@ -8,16 +8,19 @@
 import datetime
 #Import the datetime module and display the current date:
 
+# get current datetime 
 x = datetime.datetime.now()
 print(x)
 
-#Return the year and name of weekday:
+#Get year and name of weekday:
 x = datetime.datetime.now()
 print(x.year)
 print(x.strftime("%A"))
 
 
-#The strftime() Method
+# Get object of given date 
 x = datetime.datetime(2018, 6, 1)
+
+# format date using strftime() method
 print(x.strftime("%B"))
 
