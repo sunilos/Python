@@ -21,6 +21,6 @@ print(x.strftime("%A"))
 # Get object of given date 
 x = datetime.datetime(2018, 6, 1)
 
-# format date using strftime() method
+# format date using strftime() method. Get name of month
 print(x.strftime("%B"))
 
