@@ -12,5 +12,8 @@ print("tomorrow Date = ",tomorrowDate)
 aftertomorrow=tomorrowDate+timedelta(days=1)
 print("After tomorrow Date = ",aftertomorrow)
 
+#check previous date
 
+previousDate=currentStatus-timedelta(days=1)
+print("Previous Date = ",previousDate)
 
