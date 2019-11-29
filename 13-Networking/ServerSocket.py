@@ -7,14 +7,26 @@
 #
 
 import socket			  # Import socket module 
+import datetime
+
 
 s = socket.socket()        # Create a socket object
-host = socket.gethostname()   # Get local machine name
-port = 12345               # Reserve a port for your service.
+#host = socket.gethostname()   # Get local machine name
+host = 'localhost'
+port = 12345      
 s.bind((host, port))       
-s.listen(5)                 
+s.listen(5)          
+print('Server started at ', port)     
+
 while True:
-   c, addr = s.accept()    
-   print('Got connection from', addr)
-   c.send(b'Thank you for connecting')
+   c, addr = s.accept() #accept client  
+
+   #receive client message 
+   req = c.recv(1024) 
+   print('Got from', addr, req.decode("utf-8"))
+
+   #make response
+   dt = datetime.datetime.now()
+   res = "Hello Client " + dt.strftime("%m/%d/%Y, %H:%M:%S")
+   c.send(bytes(res,'utf-8'))
    c.close()

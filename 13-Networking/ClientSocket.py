@@ -8,9 +8,16 @@
 
 import socket              
 
-s = socket.socket()      
-host = socket.gethostname()
+s = socket.socket()  # craete socket    
+host = 'localhost'
+#socket.gethostname()
 port = 12345               
+print (host,port)
+
 s.connect((host, port))
-print(s.recv(1024)) 
+
+s.send(b'Hello Server')
+res = s.recv(1024) #byte object
+msg = res.decode("utf-8") 
+print(msg) 
 s.close() 
