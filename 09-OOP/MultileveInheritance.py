@@ -15,7 +15,7 @@ class Student:
         self.gender = input("Gender: ")
 
 # Define a class as 'test' and inherit base class 'student'
-class Test(student):
+class Test(Student):
     # Method
     def getMarks(self):
         self.stuClass = input("Class: ")
@@ -26,7 +26,7 @@ class Test(student):
         self.physics = int(input("Physics: "))
 
 # Define a class as 'marks' and inherit derived class 'test'
-class Marks(test):
+class Marks(Test):
     # Method
     def display(self):
         print("\n\nName: ",self.name)
@@ -36,7 +36,7 @@ class Marks(test):
         print("Total Marks: ", self.literature + self.math + self.biology + self.physics)
 
 
-m1 = marks()
+m1 = Marks()
 # Call base class method 'getStudent()'
 m1.getStudent()
 # Call first derived class method 'getMarks()'
