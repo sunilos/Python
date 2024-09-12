@@ -1,4 +1,3 @@
-Here is the Python program with comments added for better clarity:
 
 ```python
 # Example of Data Types
