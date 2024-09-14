@@ -8,9 +8,10 @@
 
 #Prints properies of a file
 def fileInfo():
-    fo = open("Test.py", "wb") 
+    fo = open("FileInfo.py", "wb") 
     print ("File Name: ", fo.name)
     print ("Mode of Opening: ", fo.mode)
     print ("Is Closed: ", fo.closed)
-    
+    return
+
 fileInfo()
