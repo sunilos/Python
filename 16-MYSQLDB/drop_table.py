@@ -16,4 +16,5 @@ conn = connection.MySQLConnection(user='root',
     database='testdb')
 
 conn.cursor().execute("DROP TABLE registeration")
+
 print("Table is removed from Database")

@@ -20,3 +20,4 @@ my_cursor = conn.cursor()
 my_cursor.execute("SHOW TABLES")
 for x in my_cursor:
   print(x)
+

@@ -1,5 +1,3 @@
-
-
 # Initialize variables
 a = 10  # The first number
 b = 20  # The second number

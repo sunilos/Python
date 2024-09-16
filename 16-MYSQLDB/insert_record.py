@@ -23,3 +23,4 @@ my_cursor.execute(sql_insert)
 conn.commit()
 print("Data Successfully Inserted")
 conn.close()
+

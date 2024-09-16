@@ -13,5 +13,4 @@ conn = connection.MySQLConnection(user='root',
     host='localhost', 
     charset='utf8', 
     database='testdb')
-
 conn.cursor().execute("ALTER TABLE student ADD COLUMN StudentEmail1 VARCHAR(255)")

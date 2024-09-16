@@ -13,5 +13,6 @@ conn = connection.MySQLConnection(user='root',
     host='localhost', 
     charset='utf8', 
     database='testdb')
-    
+  
 print(conn)
+

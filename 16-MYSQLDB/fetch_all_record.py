@@ -22,3 +22,4 @@ my_result = my_cursor.fetchall()
 
 for x in my_result:
   print(x)
+

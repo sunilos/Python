@@ -16,4 +16,5 @@ conn = connection.MySQLConnection(user='root',
 
 conn.cursor().execute("DELETE FROM student WHERE sid = '1'")
 conn.commit()
+
 print("One record Deleted")
