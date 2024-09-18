@@ -1,4 +1,4 @@
-Here’s an updated version of your code with comments explaining each part of the arithmetic operations:
+
 
 ```python
 # This program demonstrates basic arithmetic operators in Python.
