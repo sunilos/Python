@@ -1,4 +1,3 @@
-Here's the code snippet for copying a binary file using Python's `shutil` module:
 
 ```python
 # Copy a Binary File
