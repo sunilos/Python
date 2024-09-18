@@ -1,4 +1,3 @@
-Here's the provided code with explanations for multilevel inheritance:
 
 ```python
 # Example of Multilevel Inheritance
