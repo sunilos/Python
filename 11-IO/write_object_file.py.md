@@ -1,4 +1,3 @@
-Here's the code for serializing an object into a file using the `pickle` library:
 
 ```python
 # Example of serialization of an object into a file.
