@@ -46,4 +46,3 @@ for x in array_list:
      50
      ```
 
-This code demonstrates how to create an array, remove an element from it, and then print the remaining elements.
