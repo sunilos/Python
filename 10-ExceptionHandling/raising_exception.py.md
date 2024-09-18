@@ -1,4 +1,3 @@
-Here’s the code for raising an exception if a condition is met:
 
 ```python
 # Example of Simple Raising Exception
@@ -25,4 +24,3 @@ if number > 10:
   - Raises an `Exception` with a custom error message if the condition is true.
   - The message includes the value of `number` that caused the exception to be raised.
 
-This example shows how to manually trigger an exception in Python to enforce constraints or validate input.
