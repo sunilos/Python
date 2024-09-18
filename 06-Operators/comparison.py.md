@@ -1,4 +1,3 @@
-Here’s the code with comments and a brief explanation:
 
 ```python
 # Example of Comparison Operator
