@@ -1,4 +1,3 @@
-Here’s the code with added comments and a brief explanation:
 
 ```python
 # Example of If-else control statement
@@ -42,4 +41,3 @@ else:
      Feeling bad :(
      ```
 
-This simple program demonstrates how conditional control flow (if-else) works, making decisions based on a condition.
