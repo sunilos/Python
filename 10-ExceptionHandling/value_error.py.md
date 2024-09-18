@@ -1,4 +1,3 @@
-Here's the code that demonstrates handling a `ValueError` in a `try` block with a `while` loop:
 
 ```python
 # Example of Try Except with ValueError  
@@ -28,4 +27,3 @@ while True:
   - Catches the exception if the user input cannot be converted to an integer (e.g., if the user inputs non-numeric text).
   - Prints an error message prompting the user to enter a valid number.
 
-The loop will continue indefinitely, prompting the user to enter a number until valid input is provided.
