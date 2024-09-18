@@ -1,4 +1,3 @@
-Here's the provided code with explanations for method overriding:
 
 ```python
 # Example of Method Overriding
