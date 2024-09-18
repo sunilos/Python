@@ -1,4 +1,3 @@
-Here’s the code with added comments and a brief explanation:
 
 ```python
 from datetime import datetime  # Importing 'datetime' from the 'datetime' module
