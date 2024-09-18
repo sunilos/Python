@@ -60,8 +60,3 @@ del list1[1]  # Deletes the element at index 1 from list1
 print(list1)  # Prints list1 after deletion
 ```
 
-### Key Additions:
-- Comments now explain each line of code, including what each variable, list, and operation does.
-- Clarified the operations involving lists, type casting, and modifying list elements for easier understanding.
-
-Let me know if you need further clarification or adjustments!
