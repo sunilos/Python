@@ -1,4 +1,4 @@
-Here’s the code with added comments and a brief explanation:
+
 
 ```python
 from datetime import date  # Importing the 'date' module from the 'datetime' library
