@@ -44,4 +44,4 @@ print("22/7 =", 22//7)  # Output: 3 (Integer part of 22 / 7)
 6. **`%` (Modulus)**: Returns the remainder of dividing the first number by the second.
 7. **`//` (Floor Division)**: Divides the first number by the second, returning the integer part of the quotient.
 
-Let me know if you'd like to dive deeper into any of these!
+
