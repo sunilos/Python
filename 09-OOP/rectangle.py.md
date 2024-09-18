@@ -1,4 +1,3 @@
-Here's the provided code with the example of the `Rectangle` class inheriting from the `Shape` class:
 
 ```python
 from Shape import *
