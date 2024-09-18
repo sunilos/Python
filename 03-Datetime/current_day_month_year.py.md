@@ -1,4 +1,3 @@
-Here’s the code with added comments and a brief explanation:
 
 ```python
 from datetime import date, timedelta  # Importing 'date' and 'timedelta' from the 'datetime' module
@@ -41,4 +40,3 @@ print("Previous Date =", previousDate)  # Output: Previous day's date
 5. **Previous Date**:
    - Subtracting one day using `timedelta(days=1)` calculates the previous day's date.
 
-This code helps you work with dates by retrieving the current date, adding or subtracting days, and manipulating them as needed.
