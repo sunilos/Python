@@ -1,4 +1,3 @@
-Here's the code snippet for reading text from the keyboard and storing it into a text file:
 
 ```python
 # Reads text from keyboard and stores it into a text file. 
