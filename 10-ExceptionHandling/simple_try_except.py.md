@@ -1,4 +1,3 @@
-Here's the code for handling division by zero with a `try` and `except` block, including an `else` block:
 
 ```python
 # Example of simple Try Except with ZeroDivisionError
@@ -31,4 +30,3 @@ else:
 - **`else` block**:
   - Executes if no exception is raised in the `try` block. It prints a message indicating the `else` block was executed.
 
-This example demonstrates how to handle specific exceptions and execute additional code when no exceptions occur.
