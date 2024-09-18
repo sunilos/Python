@@ -1,4 +1,4 @@
-Here’s the Python program with comments and explanations:
+
 
 ```python
 # Initialize variable 'a' with the value 10
