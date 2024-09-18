@@ -1,4 +1,4 @@
-Here’s the code with comments and a brief explanation:
+
 
 ```python
 # Assigning the value 50 to variable 'a'
