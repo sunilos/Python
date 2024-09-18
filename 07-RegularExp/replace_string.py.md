@@ -1,4 +1,3 @@
-Here’s the code with added comments and a brief explanation:
 
 ```python
 # Example of sub() replaces the matches with text of your string
