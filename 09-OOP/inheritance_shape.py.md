@@ -1,4 +1,3 @@
-Here's the provided code with added comments and explanations:
 
 ```python
 # Example of Inheritance 
