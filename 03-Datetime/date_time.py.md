@@ -1,4 +1,3 @@
-Here’s the code with added comments and a brief explanation:
 
 ```python
 # Example of Date Time 
@@ -45,4 +44,3 @@ print(x.strftime("%B"))  # Output: The name of the month for the given date (e.g
 5. **Formatting Date to Get Month**:
    - `x.strftime("%B")`: Formats the date to return the full name of the month (e.g., "June"). 
 
-This code demonstrates how to fetch the current date and time, access specific components like the year and weekday, and create a datetime object for a specified date while formatting the output.

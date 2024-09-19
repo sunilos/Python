@@ -1,4 +1,3 @@
-Here's the provided code for an example of polymorphism with one name having multiple forms:
 
 ```python
 # Example of Polymorphism with One Name Multiple Forms

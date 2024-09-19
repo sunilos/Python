@@ -1,4 +1,3 @@
-"यहाँ कोड में टिप्पणियाँ और संक्षिप्त विवरण जोड़ा गया है:
 
 ```python
 from datetime import datetime  # 'datetime' मॉड्यूल से 'datetime' को आयात करना

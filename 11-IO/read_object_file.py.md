@@ -1,4 +1,3 @@
-Here’s the code for deserializing an object from a file using the `pickle` library:
 
 ```python
 # Example of deserialization of an object from a file.
@@ -18,4 +17,3 @@ with open('emp.dat', 'rb') as f:
 - **`obj = pickle.load(f)`**: Reads (unpickles) the object from the file and assigns it to `obj`.
 - **`obj.display()`**: Calls the `display` method on the deserialized object, assuming that the object has such a method. This is where you would handle the deserialized object's data.
 
-This code will read an object from the file `emp.dat`, deserialize it, and then call its `display` method to print its information.

@@ -1,4 +1,3 @@
-Here is the code example for the `Triangle` class that inherits from the `Shape` class:
 
 ```python
 from Shape import *
@@ -28,4 +27,3 @@ class Triangle(Shape):
 - **`__str__()` Method**:
   - Provides a string representation of the `Triangle` object, including its `base` and `height`.
 
-This code assumes that the `Shape` class is properly defined and available for import, as demonstrated in your previous examples.

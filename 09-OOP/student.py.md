@@ -1,4 +1,3 @@
-Here's the code example demonstrating the use of built-in functions with class attributes:
 
 ```python
 # Example of Built-in Functions 
@@ -55,5 +54,3 @@ print(s.age)  # Raises AttributeError: 'Student' object has no attribute 'age'
    - Deletes the attribute named `name` from the object `object`.
    - If the attribute does not exist, it raises an `AttributeError`.
 
-### Usage:
-- These built-in functions are useful for dynamically interacting with an object's attributes, especially when dealing with objects where attribute names may not be known until runtime.

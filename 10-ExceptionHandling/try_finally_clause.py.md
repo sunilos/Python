@@ -1,4 +1,3 @@
-Here's the code that demonstrates exception handling with a `finally` clause:
 
 ```python
 # Example of Exception Handling with Finally() Clause
@@ -30,4 +29,3 @@ print(k)  # The finally block is executed even if there is a return statement in
 - **Result**:
   - The `finally` block overrides the `return` value from the `try` block, so the function `hello()` returns `2`.
 
-The `finally` block is always executed, which can be useful for cleanup operations or to ensure certain code runs regardless of the outcome of the `try` block.

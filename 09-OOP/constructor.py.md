@@ -1,4 +1,3 @@
-Here's the code with added comments and a brief explanation:
 
 ```python
 # Example of Creating Constructor  
@@ -63,4 +62,3 @@ emp2.display()
    - `emp1.display()`: Calls the `display` method on the `emp1` instance to print its details.
    - `emp2.display()`: Calls the `display` method on the `emp2` instance to print its details.
 
-This example demonstrates how to define and use a constructor in a class to initialize instance variables and how to define and use methods to interact with these variables.

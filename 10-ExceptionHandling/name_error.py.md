@@ -1,4 +1,3 @@
-Here’s the code for handling a `NameError` with a `try-except` block:
 
 ```python
 # Example of simple Try Except with NameError
@@ -28,4 +27,3 @@ except:
 - **`except` Block**:
   - Catches any other exceptions that are not specifically handled by the previous `except` blocks and prints a generic error message.
 
-This example demonstrates basic error handling in Python, allowing you to handle specific errors gracefully and providing fallback behavior for unexpected issues.

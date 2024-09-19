@@ -1,4 +1,3 @@
-Here’s the code with added comments and a brief explanation:
 
 ```python
 from datetime import date  # Import the 'date' class from the 'datetime' module
@@ -46,4 +45,3 @@ print(age, "years")  # Output: user's age in years
 5. **Age Calculation**:
    - The `calculateAge()` function is called, passing the birthdate and current date as arguments. The function computes the user's age, which is then printed.
 
-This code is useful for calculating a person's age based on their birth date and a user-defined current date.

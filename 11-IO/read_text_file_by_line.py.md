@@ -1,4 +1,3 @@
-Here’s the code for reading a file line by line:
 
 ```python
 # Read a file line by line

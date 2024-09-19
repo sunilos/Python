@@ -1,4 +1,3 @@
-Here's the provided code for an example of multiple inheritance in Python:
 
 ```python
 # Example of Multiple Inheritance

@@ -1,4 +1,3 @@
-Here’s the code with added comments and a brief explanation:
 
 ```python
 # Example of For Loop to print squares of all numbers present in a list
@@ -34,4 +33,3 @@ for val in numbers:
 4. **Printing the Squares**:
    - After calculating the square of the number, the result is printed. For example, the square of 2 is `4`, and it will be printed to the console.
 
-This program will output the squares of all the numbers present in the list one by one.

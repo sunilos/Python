@@ -1,4 +1,3 @@
-Here is the provided code snippet for the `Shape` class with an example of inheritance:
 
 ```python
 # Example of Inheritance 
@@ -65,9 +64,3 @@ class Shape:
 6. **String Representation (`__str__` method)**:
    - Provides a string representation of the `Shape` object, including its `color` and `borderWidth`.
 
-### Usage:
-- This `Shape` class can be used as a base class for other geometric shapes (e.g., `Circle`, `Rectangle`) that will inherit its attributes and methods.
-- The `area` method can be overridden by subclasses to provide specific implementations for different shapes.
-- The `__str__` method is useful for providing a readable string representation of the object.
-
-This class provides a framework for defining shapes and can be extended by more specific shape classes.

@@ -1,4 +1,3 @@
-Here’s the code for reading all text from a file:
 
 ```python
 # Read all text from a file
@@ -17,4 +16,3 @@ readFile()
 - **`print(text)`**: Outputs the content of the file to the console.
 - **`file.close()`**: Closes the file to free up system resources.
 
-Make sure `abc.txt` exists in the same directory as your script, or provide the full path to the file.

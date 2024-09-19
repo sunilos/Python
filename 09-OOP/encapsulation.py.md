@@ -1,4 +1,3 @@
-Here's the code with added comments and a brief explanation:
 
 ```python
 # Example of Encapsulation
@@ -51,5 +50,3 @@ obj.display("Shyam") # Output: Hello Shyam
    - `obj.display("Ram")`: Calls the `display` method with the argument `"Ram"`, printing `Hello Ram`.
    - `obj.display("Shyam")`: Calls the `display` method with the argument `"Shyam"`, printing `Hello Shyam`.
 
-### Encapsulation:
-Encapsulation in this example is demonstrated by the class `Person` hiding its internal data (like `name`) and providing methods (`display`) to interact with this data. The `name` attribute is not directly modified or accessed outside the class, following the principle of encapsulation.

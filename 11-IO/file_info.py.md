@@ -1,4 +1,3 @@
-Here's the code snippet for file I/O that prints the properties of a file:
 
 ```python
 # Example of File I/O

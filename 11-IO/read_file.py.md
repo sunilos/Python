@@ -1,4 +1,3 @@
-Here’s the code for reading the contents of a file and printing it:
 
 ```python
 # Read a file 
@@ -18,4 +17,3 @@ readFile()
 - **`print(text)`**: Outputs the contents of the file to the console.
 - **`file.close()`**: Closes the file to ensure resources are properly released.
 
-This function reads and prints the entire contents of `FileInfo.py`. If you want to handle specific errors (e.g., file not found), consider adding error handling with `try` and `except` blocks.

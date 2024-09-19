@@ -1,4 +1,3 @@
-Here's the code with added comments and a brief explanation:
 
 ```python
 # Example of Creating class 
@@ -45,4 +44,3 @@ emp.display()
 5. **Accessing Method**:
    - `emp.display()`: Calls the `display` method on the `emp` instance, which prints the employee details.
 
-This example demonstrates how to create a class with class variables and methods, and how to access these variables and methods through an instance of the class. Note that `self` in the `display` method refers to the instance itself, allowing access to the class variables.

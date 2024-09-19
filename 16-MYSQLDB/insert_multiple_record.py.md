@@ -1,4 +1,3 @@
-Here's the code with added comments and a brief explanation:
 
 ```python
 # Example to Insert multiple records in table 

@@ -1,4 +1,3 @@
-Here's the complete code example demonstrating the usage of classes, including testing different shapes and displaying metadata:
 
 ```python
 # Example of Class 
@@ -110,5 +109,3 @@ displayShapeMetadata()
 - **`testRectangle()`**: 
   - Creates an instance of the `Rectangle` class and prints its area and attributes.
 
-### Note:
-- Uncomment the function calls (`testShape()`, `testCircle()`, `testTriangle()`, `testRectangle()`) as needed to run the tests for each class.

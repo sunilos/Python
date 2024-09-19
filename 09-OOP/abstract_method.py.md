@@ -1,4 +1,3 @@
-Here's the code with added comments and a brief explanation:
 
 ```python
 # Example of Abstract Method 
@@ -62,4 +61,3 @@ penta_obj.noofsides()  # Output: I have 5 sides
    - `tri_obj = Triangle()`: Creates an instance of the `Triangle` class and calls the overridden `noofsides` method.
    - `penta_obj = Pentagon()`: Creates an instance of the `Pentagon` class and calls the overridden `noofsides` method.
 
-This code demonstrates the concept of abstract methods in Python, where an abstract base class defines a method that must be implemented by its subclasses, and how different subclasses can provide their own specific implementations of that method.
